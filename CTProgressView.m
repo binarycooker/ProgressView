@@ -5,7 +5,7 @@
 //  Created by Ansel on 12-10-28.
 //  Copyright (c) 2012年 Ansel. All rights reserved.
 //
-
+//Added by hubing 20121202
 #import "CTProgressView.h"
 
 @implementation CTProgressView
