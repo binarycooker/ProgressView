@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B2AF51C1646B644002E1ACC /* SqliteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2AF51A1646B643002E1ACC /* SqliteViewController.m */; };
+		5B2AF51D1646B644002E1ACC /* SqliteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B2AF51B1646B643002E1ACC /* SqliteViewController.xib */; };
+		5B2AF5201646B7D7002E1ACC /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2AF51F1646B7D7002E1ACC /* libsqlite3.0.dylib */; };
+		5B2AF5221646BA49002E1ACC /* test.db in Resources */ = {isa = PBXBuildFile; fileRef = 5B2AF5211646BA49002E1ACC /* test.db */; };
+		5B7908DF163EC74D00FFFEAA /* EmailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7908DD163EC74D00FFFEAA /* EmailViewController.m */; };
+		5B7908E0163EC74D00FFFEAA /* EmailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B7908DE163EC74D00FFFEAA /* EmailViewController.xib */; };
+		5B7908E3163EC88E00FFFEAA /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B7908E2163EC88E00FFFEAA /* MessageUI.framework */; };
+		5B7908F3163ECD6000FFFEAA /* Base64Transcoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7908E6163ECD6000FFFEAA /* Base64Transcoder.m */; };
+		5B7908F4163ECD6000FFFEAA /* HSK_CFUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7908E8163ECD6000FFFEAA /* HSK_CFUtilities.m */; };
+		5B7908F5163ECD6000FFFEAA /* NSData+Base64Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7908EA163ECD6000FFFEAA /* NSData+Base64Additions.m */; };
+		5B7908F6163ECD6000FFFEAA /* NSStream+SKPSMTPExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7908EC163ECD6000FFFEAA /* NSStream+SKPSMTPExtensions.m */; };
+		5B7908F7163ECD6000FFFEAA /* SKPSMTPMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7908EE163ECD6000FFFEAA /* SKPSMTPMessage.m */; };
+		5B7908F8163ECD6000FFFEAA /* SMTPSenderAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7908F0163ECD6000FFFEAA /* SMTPSenderAppDelegate.m */; };
+		5B7908F9163ECD6000FFFEAA /* SMTPSenderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7908F2163ECD6000FFFEAA /* SMTPSenderViewController.m */; };
+		5B7908FC163ECE8F00FFFEAA /* Success.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B7908FA163ECE8F00FFFEAA /* Success.png */; };
+		5B7908FD163ECE8F00FFFEAA /* test.vcf in Resources */ = {isa = PBXBuildFile; fileRef = 5B7908FB163ECE8F00FFFEAA /* test.vcf */; };
+		5B790903163ECED100FFFEAA /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B790902163ECED100FFFEAA /* CFNetwork.framework */; };
 		5BBE246C163D7C2500F25E51 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BBE246B163D7C2500F25E51 /* UIKit.framework */; };
 		5BBE246E163D7C2500F25E51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BBE246D163D7C2500F25E51 /* Foundation.framework */; };
 		5BBE2470163D7C2500F25E51 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BBE246F163D7C2500F25E51 /* CoreGraphics.framework */; };
@@ -21,6 +38,11 @@
 		5BBE248C163D7C2600F25E51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BBE246D163D7C2500F25E51 /* Foundation.framework */; };
 		5BBE2494163D7C2600F25E51 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BBE2492163D7C2600F25E51 /* InfoPlist.strings */; };
 		5BBE2497163D7C2600F25E51 /* ProgressViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BBE2496163D7C2600F25E51 /* ProgressViewTests.m */; };
+		5BBE24A3163D7C4E00F25E51 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BBE24A1163D7C4E00F25E51 /* MainViewController.m */; };
+		5BBE24A4163D7C4E00F25E51 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BBE24A2163D7C4E00F25E51 /* MainViewController.xib */; };
+		5BBE24AB163D7EF600F25E51 /* CTProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BBE24AA163D7EF600F25E51 /* CTProgressView.m */; };
+		5BBE24AD163D859100F25E51 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BBE24AC163D859100F25E51 /* test.png */; };
+		5BBE24AF163D87C300F25E51 /* progressBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BBE24AE163D87C300F25E51 /* progressBackground.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +56,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B2AF5191646B643002E1ACC /* SqliteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqliteViewController.h; sourceTree = "<group>"; };
+		5B2AF51A1646B643002E1ACC /* SqliteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SqliteViewController.m; sourceTree = "<group>"; };
+		5B2AF51B1646B643002E1ACC /* SqliteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SqliteViewController.xib; sourceTree = "<group>"; };
+		5B2AF51F1646B7D7002E1ACC /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		5B2AF5211646BA49002E1ACC /* test.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.db; sourceTree = "<group>"; };
+		5B7908DC163EC74D00FFFEAA /* EmailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmailViewController.h; sourceTree = "<group>"; };
+		5B7908DD163EC74D00FFFEAA /* EmailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmailViewController.m; sourceTree = "<group>"; };
+		5B7908DE163EC74D00FFFEAA /* EmailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmailViewController.xib; sourceTree = "<group>"; };
+		5B7908E2163EC88E00FFFEAA /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		5B7908E5163ECD6000FFFEAA /* Base64Transcoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64Transcoder.h; sourceTree = "<group>"; };
+		5B7908E6163ECD6000FFFEAA /* Base64Transcoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64Transcoder.m; sourceTree = "<group>"; };
+		5B7908E7163ECD6000FFFEAA /* HSK_CFUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSK_CFUtilities.h; sourceTree = "<group>"; };
+		5B7908E8163ECD6000FFFEAA /* HSK_CFUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSK_CFUtilities.m; sourceTree = "<group>"; };
+		5B7908E9163ECD6000FFFEAA /* NSData+Base64Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64Additions.h"; sourceTree = "<group>"; };
+		5B7908EA163ECD6000FFFEAA /* NSData+Base64Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64Additions.m"; sourceTree = "<group>"; };
+		5B7908EB163ECD6000FFFEAA /* NSStream+SKPSMTPExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSStream+SKPSMTPExtensions.h"; sourceTree = "<group>"; };
+		5B7908EC163ECD6000FFFEAA /* NSStream+SKPSMTPExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSStream+SKPSMTPExtensions.m"; sourceTree = "<group>"; };
+		5B7908ED163ECD6000FFFEAA /* SKPSMTPMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKPSMTPMessage.h; sourceTree = "<group>"; };
+		5B7908EE163ECD6000FFFEAA /* SKPSMTPMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKPSMTPMessage.m; sourceTree = "<group>"; };
+		5B7908EF163ECD6000FFFEAA /* SMTPSenderAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMTPSenderAppDelegate.h; sourceTree = "<group>"; };
+		5B7908F0163ECD6000FFFEAA /* SMTPSenderAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMTPSenderAppDelegate.m; sourceTree = "<group>"; };
+		5B7908F1163ECD6000FFFEAA /* SMTPSenderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMTPSenderViewController.h; sourceTree = "<group>"; };
+		5B7908F2163ECD6000FFFEAA /* SMTPSenderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMTPSenderViewController.m; sourceTree = "<group>"; };
+		5B7908FA163ECE8F00FFFEAA /* Success.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Success.png; sourceTree = "<group>"; };
+		5B7908FB163ECE8F00FFFEAA /* test.vcf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.vcf; sourceTree = "<group>"; };
+		5B790902163ECED100FFFEAA /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		5BBE2467163D7C2500F25E51 /* ProgressView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgressView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BBE246B163D7C2500F25E51 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5BBE246D163D7C2500F25E51 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -53,6 +101,13 @@
 		5BBE2493163D7C2600F25E51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5BBE2495163D7C2600F25E51 /* ProgressViewTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProgressViewTests.h; sourceTree = "<group>"; };
 		5BBE2496163D7C2600F25E51 /* ProgressViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProgressViewTests.m; sourceTree = "<group>"; };
+		5BBE24A0163D7C4E00F25E51 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		5BBE24A1163D7C4E00F25E51 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		5BBE24A2163D7C4E00F25E51 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		5BBE24A9163D7EF600F25E51 /* CTProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTProgressView.h; sourceTree = "<group>"; };
+		5BBE24AA163D7EF600F25E51 /* CTProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTProgressView.m; sourceTree = "<group>"; };
+		5BBE24AC163D859100F25E51 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
+		5BBE24AE163D87C300F25E51 /* progressBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = progressBackground.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +115,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B2AF5201646B7D7002E1ACC /* libsqlite3.0.dylib in Frameworks */,
+				5B790903163ECED100FFFEAA /* CFNetwork.framework in Frameworks */,
+				5B7908E3163EC88E00FFFEAA /* MessageUI.framework in Frameworks */,
 				5BBE246C163D7C2500F25E51 /* UIKit.framework in Frameworks */,
 				5BBE246E163D7C2500F25E51 /* Foundation.framework in Frameworks */,
 				5BBE2470163D7C2500F25E51 /* CoreGraphics.framework in Frameworks */,
@@ -79,9 +137,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B7908E4163ECD3900FFFEAA /* SMTP */ = {
+			isa = PBXGroup;
+			children = (
+				5B7908E5163ECD6000FFFEAA /* Base64Transcoder.h */,
+				5B7908E6163ECD6000FFFEAA /* Base64Transcoder.m */,
+				5B7908E7163ECD6000FFFEAA /* HSK_CFUtilities.h */,
+				5B7908E8163ECD6000FFFEAA /* HSK_CFUtilities.m */,
+				5B7908E9163ECD6000FFFEAA /* NSData+Base64Additions.h */,
+				5B7908EA163ECD6000FFFEAA /* NSData+Base64Additions.m */,
+				5B7908EB163ECD6000FFFEAA /* NSStream+SKPSMTPExtensions.h */,
+				5B7908EC163ECD6000FFFEAA /* NSStream+SKPSMTPExtensions.m */,
+				5B7908ED163ECD6000FFFEAA /* SKPSMTPMessage.h */,
+				5B7908EE163ECD6000FFFEAA /* SKPSMTPMessage.m */,
+				5B7908EF163ECD6000FFFEAA /* SMTPSenderAppDelegate.h */,
+				5B7908F0163ECD6000FFFEAA /* SMTPSenderAppDelegate.m */,
+				5B7908F1163ECD6000FFFEAA /* SMTPSenderViewController.h */,
+				5B7908F2163ECD6000FFFEAA /* SMTPSenderViewController.m */,
+			);
+			name = SMTP;
+			sourceTree = "<group>";
+		};
 		5BBE245C163D7C2500F25E51 = {
 			isa = PBXGroup;
 			children = (
+				5B7908E4163ECD3900FFFEAA /* SMTP */,
+				5B7908DC163EC74D00FFFEAA /* EmailViewController.h */,
+				5B7908DD163EC74D00FFFEAA /* EmailViewController.m */,
+				5B7908DE163EC74D00FFFEAA /* EmailViewController.xib */,
+				5BBE24A9163D7EF600F25E51 /* CTProgressView.h */,
+				5BBE24AA163D7EF600F25E51 /* CTProgressView.m */,
+				5BBE24A0163D7C4E00F25E51 /* MainViewController.h */,
+				5BBE24A1163D7C4E00F25E51 /* MainViewController.m */,
+				5BBE24A2163D7C4E00F25E51 /* MainViewController.xib */,
+				5B2AF5191646B643002E1ACC /* SqliteViewController.h */,
+				5B2AF51A1646B643002E1ACC /* SqliteViewController.m */,
+				5B2AF51B1646B643002E1ACC /* SqliteViewController.xib */,
 				5BBE2471163D7C2500F25E51 /* ProgressView */,
 				5BBE248F163D7C2600F25E51 /* ProgressViewTests */,
 				5BBE246A163D7C2500F25E51 /* Frameworks */,
@@ -101,6 +192,9 @@
 		5BBE246A163D7C2500F25E51 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5B2AF51F1646B7D7002E1ACC /* libsqlite3.0.dylib */,
+				5B790902163ECED100FFFEAA /* CFNetwork.framework */,
+				5B7908E2163EC88E00FFFEAA /* MessageUI.framework */,
 				5BBE246B163D7C2500F25E51 /* UIKit.framework */,
 				5BBE246D163D7C2500F25E51 /* Foundation.framework */,
 				5BBE246F163D7C2500F25E51 /* CoreGraphics.framework */,
@@ -122,6 +216,11 @@
 		5BBE2472163D7C2500F25E51 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5B2AF5211646BA49002E1ACC /* test.db */,
+				5B7908FA163ECE8F00FFFEAA /* Success.png */,
+				5B7908FB163ECE8F00FFFEAA /* test.vcf */,
+				5BBE24AE163D87C300F25E51 /* progressBackground.png */,
+				5BBE24AC163D859100F25E51 /* test.png */,
 				5BBE2473163D7C2500F25E51 /* ProgressView-Info.plist */,
 				5BBE2474163D7C2500F25E51 /* InfoPlist.strings */,
 				5BBE2477163D7C2500F25E51 /* main.m */,
@@ -227,6 +326,13 @@
 				5BBE247E163D7C2600F25E51 /* Default.png in Resources */,
 				5BBE2480163D7C2600F25E51 /* Default@2x.png in Resources */,
 				5BBE2482163D7C2600F25E51 /* Default-568h@2x.png in Resources */,
+				5BBE24A4163D7C4E00F25E51 /* MainViewController.xib in Resources */,
+				5BBE24AD163D859100F25E51 /* test.png in Resources */,
+				5BBE24AF163D87C300F25E51 /* progressBackground.png in Resources */,
+				5B7908E0163EC74D00FFFEAA /* EmailViewController.xib in Resources */,
+				5B7908FC163ECE8F00FFFEAA /* Success.png in Resources */,
+				5B7908FD163ECE8F00FFFEAA /* test.vcf in Resources */,
+				5B2AF51D1646B644002E1ACC /* SqliteViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +341,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BBE2494163D7C2600F25E51 /* InfoPlist.strings in Resources */,
+				5B2AF5221646BA49002E1ACC /* test.db in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +370,17 @@
 			files = (
 				5BBE2478163D7C2500F25E51 /* main.m in Sources */,
 				5BBE247C163D7C2600F25E51 /* AppDelegate.m in Sources */,
+				5BBE24A3163D7C4E00F25E51 /* MainViewController.m in Sources */,
+				5BBE24AB163D7EF600F25E51 /* CTProgressView.m in Sources */,
+				5B7908DF163EC74D00FFFEAA /* EmailViewController.m in Sources */,
+				5B7908F3163ECD6000FFFEAA /* Base64Transcoder.m in Sources */,
+				5B7908F4163ECD6000FFFEAA /* HSK_CFUtilities.m in Sources */,
+				5B7908F5163ECD6000FFFEAA /* NSData+Base64Additions.m in Sources */,
+				5B7908F6163ECD6000FFFEAA /* NSStream+SKPSMTPExtensions.m in Sources */,
+				5B7908F7163ECD6000FFFEAA /* SKPSMTPMessage.m in Sources */,
+				5B7908F8163ECD6000FFFEAA /* SMTPSenderAppDelegate.m in Sources */,
+				5B7908F9163ECD6000FFFEAA /* SMTPSenderViewController.m in Sources */,
+				5B2AF51C1646B644002E1ACC /* SqliteViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +475,7 @@
 		5BBE249B163D7C2600F25E51 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ProgressView/ProgressView-Prefix.pch";
 				INFOPLIST_FILE = "ProgressView/ProgressView-Info.plist";
@@ -368,6 +487,7 @@
 		5BBE249C163D7C2600F25E51 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ProgressView/ProgressView-Prefix.pch";
 				INFOPLIST_FILE = "ProgressView/ProgressView-Info.plist";
@@ -429,6 +549,7 @@
 				5BBE249C163D7C2600F25E51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5BBE249D163D7C2600F25E51 /* Build configuration list for PBXNativeTarget "ProgressViewTests" */ = {
 			isa = XCConfigurationList;
@@ -437,6 +558,7 @@
 				5BBE249F163D7C2600F25E51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
